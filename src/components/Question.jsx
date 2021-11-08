@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import { Form } from 'react-bootstrap'
-import { questionGeek } from '../Questionario';
+import { questionGeek, questionGames, questionHarryPotter } from '../Questionario';
 import { ButtonStyle, DivForm, FormStyle, RadioStyle, Titulo } from '../styles/CardQuestion'
 
 export default class Question extends Component {
 
-    constructor() { // declarating all the states and default values
-        super();
+    constructor(props) { // declarating all the states and default values //receiving props as arg
+        super(props);
         this.state = {
+            quiz: this.props.quiz,
+            leQuiz: '',
             numberQuestion: 0,
             question: {
                 question: "",
@@ -23,16 +25,29 @@ export default class Question extends Component {
     }
 
     componentDidMount() {
-        const currentQuizData = questionGeek[this.state.numberQuestion]
+
+        if(this.state.quiz === 'geek') {
+            const currentQuizData = questionGeek[this.state.numberQuestion]
+            this.state.leQuiz = questionGeek
+        } else if(this.state.quiz === 'games') {
+            const currentQuizData = questionGames[this.state.numberQuestion]
+            this.state.leQuiz  = questionGames
+        } else if(this.state.quiz === 'harry') {
+            const currentQuizData = questionHarryPotter[this.state.numberQuestion]
+            this.state.leQuiz  = questionHarryPotter
+        }
+
+        console.log(this.state.leQuiz)
+
 
         this.setState({
             question: {
-                question: currentQuizData.question,
-                a: currentQuizData.a,
-                b: currentQuizData.b,
-                c: currentQuizData.c,
-                d: currentQuizData.d,
-                correct: currentQuizData.correct
+                question: this.state.leQuiz.question,
+                a: this.state.leQuiz.a,
+                b: this.state.leQuiz.b,
+                c: this.state.leQuiz.c,
+                d: this.state.leQuiz.d,
+                correct: this.state.leQuiz.correct
             }
         })
     }
@@ -45,7 +60,7 @@ export default class Question extends Component {
                 score: this.state.score + 1,
             })
         }
-        if (this.state.numberQuestion < questionGeek.length) {
+        if (this.state.numberQuestion < this.state.leQuiz.length) {
             this.componentDidMount() //this reloads and sets the values of the states
         } else {
             console.log(this.state.score);
@@ -64,7 +79,7 @@ export default class Question extends Component {
             <DivForm>
                 <FormStyle onSubmit={this.handleSubmit}>
                     <Form.Group className="mb-3" controlId="control-radio" style={{ padding: "4rem" }}>
-                        <h3>Pregunta {this.state.numberQuestion} de {questionGeek.length}</h3>
+                        {/* <h3>Pregunta {this.state.numberQuestion} de {questionGeek.length}</h3> */}
                         <Titulo>{this.state.question.question}</Titulo>
                         <RadioStyle
                             type="radio"
@@ -102,7 +117,7 @@ export default class Question extends Component {
                     <ButtonStyle variant="primary" type="submit" onClick={() => { this.setState({ numberQuestion: this.state.numberQuestion + 1 }) }}>
                         Enviar
                     </ButtonStyle>
-                    <h2 style={{ textAlign: "center" }}>{this.state.score}/{questionGeek.length} </h2>
+                    <h2 style={{ textAlign: "center" }}>{this.state.score}/{this.state.leQuiz.length} </h2>
                 </FormStyle>
             </DivForm>
         )

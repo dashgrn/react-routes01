@@ -6,15 +6,16 @@ import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Home from '../components/Home';
 
-// the browser router goes first so it chaches the routes
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Routes> //defines routes order.
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/question" element={<Question />} />
+        <Route path="/geek" element={<Question quiz={'geek'} />} />
+        <Route path="/games" element={<Question quiz={'games'} />} />
+        <Route path="/harry" element={<Question quiz={'harry'} />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>

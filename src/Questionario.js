@@ -5,7 +5,7 @@ export const questionHarryPotter = [
         b: "Expecto Patronum",
         c: "Avada Kedavra",
         d: "Accio",
-        corrrect: "Expelliarmus"
+        correct: "Expelliarmus"
     },
     {
         question: "Es Levi-O-sa, no ...",
@@ -13,7 +13,7 @@ export const questionHarryPotter = [
         b: "Levi-O-sa",
         c: "Levi-o-SA",
         d: "LEVI-o-SA",
-        corrrect: "Levi-o-SA"
+        correct: "Levi-o-SA"
     },
     {
         question: "Cuando se desentierra, ¿qué hará una mandrágora?",
@@ -21,7 +21,7 @@ export const questionHarryPotter = [
         b: "Eructo",
         c: "Reir",
         d: "Gritar",
-        corrrect: "Gritar"
+        correct: "Gritar"
     },
     {
         question: "En Harry Potter, ¿Qué hechizo debes conjurar para arreglar unas gafas?",
@@ -29,7 +29,7 @@ export const questionHarryPotter = [
         b: "Oculo reparat",
         c: "Glafulus arreglo",
         d: "Reparat ojus",
-        corrrect: "Oculus reparo"
+        correct: "Oculus reparo"
     },
     {
         question: "¿En qué posición juega Harry en su equipo de Quidditch?",
@@ -37,7 +37,7 @@ export const questionHarryPotter = [
         b: "Buscador",
         c: "Bludger",
         d: "Guardián",
-        corrrect: "Buscador"
+        correct: "Buscador"
     },
     {
         question: "¿Cómo se llamaba el elfo doméstico de la familia Black?",
@@ -45,7 +45,7 @@ export const questionHarryPotter = [
         b: "Winky",
         c: "Kreacher",
         d: "hockey",
-        corrrect: "Kreacher"
+        correct: "Kreacher"
     },
 ]
 
@@ -56,7 +56,7 @@ export const questionGames = [
         b: "hasta que se hace realidad",
         c: "aunque en realidad si",
         d: "todo está permitido",
-        corrrect: "todo está permitido"
+        correct: "todo está permitido"
     },
     {
         question: "¿Cómo se llama el hermano de Mario Bros?",
@@ -64,7 +64,7 @@ export const questionGames = [
         b: "Mario Jr",
         c: "Tony",
         d: "Honguito",
-        corrrect: "Luigi"
+        correct: "Luigi"
     },
     {
         question: "¿Cómo se llama el enemigo de Sonic?",
@@ -72,7 +72,7 @@ export const questionGames = [
         b: "Robotech",
         c: "Tails",
         d: "Dr. Robotnik",
-        corrrect: "Dr. Robotnik"
+        correct: "Dr. Robotnik"
     },
     {
         question: "¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?",
@@ -80,7 +80,7 @@ export const questionGames = [
         b: "Raccoon City",
         c: "Metrópolis",
         d: "Gotam City",
-        corrrect: "Raccoon City"
+        correct: "Raccoon City"
     },
     {
         question: "¿Como se llama la protagonista de la saga de Tom Raider",
@@ -88,7 +88,7 @@ export const questionGames = [
         b: "Samus Aran",
         c: "Lara Croft",
         d: "Aloy",
-        corrrect: "Lara Croft"
+        correct: "Lara Croft"
     },
     {
         question: "¿Que lenguaje de programación se utilizó  para crear Minecraft?",
@@ -96,7 +96,7 @@ export const questionGames = [
         b: "python",
         c: "php",
         d: "java",
-        corrrect: "java"
+        correct: "java"
     },
 ]
 
@@ -107,7 +107,7 @@ export const questionGeek = [
         b: "Vibranium",
         c: "Acero",
         d: "Adamantium",
-        corrrect: "Adamantium"
+        correct: "Adamantium"
     },
     {
         question: "¿Qué hechizo usó Harry para matar a Lord Voldemort?",
@@ -115,7 +115,7 @@ export const questionGeek = [
         b: "Expecto Patronum",
         c: "Avada Kedavra",
         d: "Accio",
-        corrrect: "Expelliarmus"
+        correct: "Expelliarmus"
     },
     {
         question: "Un anillo...",
@@ -123,7 +123,7 @@ export const questionGeek = [
         b: "para llamarlos a todos",
         c: "para gobernarlos a todos",
         d: "para destruirlos",
-        corrrect: "para gobernarlos a todos"
+        correct: "para gobernarlos a todos"
     },
     {
         question: "En Assassins Creed, 'Nada es verdad...'",
@@ -131,7 +131,7 @@ export const questionGeek = [
         b: "hasta que se hace realidad",
         c: "aunque en realidad si",
         d: "todo está permitido",
-        corrrect: "todo está permitido"
+        correct: "todo está permitido"
     },
     {
         question: "¿En qué posición juega Harry en su equipo de Quidditch?",
@@ -139,7 +139,7 @@ export const questionGeek = [
         b: "Buscador",
         c: "Bludger",
         d: "Guardián",
-        corrrect: "Buscador"
+        correct: "Buscador"
     },
     {
         question: "¿Cómo se llama el hermano de Mario Bros?",
@@ -147,7 +147,7 @@ export const questionGeek = [
         b: "Mario Jr",
         c: "Tony",
         d: "Honguito",
-        corrrect: "Luigi"
+        correct: "Luigi"
     },
     {
         question: "¿Qué talento mágico comparte Harry con Voldemort?",
@@ -155,7 +155,7 @@ export const questionGeek = [
         b: "Ser un hablante de pársel",
         c: "Ser un auror",
         d: "Ser un mortífago",
-        corrrect: "Ser un hablante de pársel"
+        correct: "Ser un hablante de pársel"
     },
     {
         question: "¿Cómo se llama el enemigo de Sonic?",
@@ -163,7 +163,7 @@ export const questionGeek = [
         b: "Robotech",
         c: "Tails",
         d: "Dr. Robotnik",
-        corrrect: "Dr. Robotnik"
+        correct: "Dr. Robotnik"
     },
     {
         question: "¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?",
@@ -171,7 +171,7 @@ export const questionGeek = [
         b: "Raccoon City",
         c: "Metrópolis",
         d: "Gotam City",
-        corrrect: "Raccoon City"
+        correct: "Raccoon City"
     },
     {
         question: "¿Como se llama la protagonista de la saga de Tom Raider",
@@ -179,7 +179,7 @@ export const questionGeek = [
         b: "Samus Aran",
         c: "Lara Croft",
         d: "Aloy",
-        corrrect: "Lara Croft"
+        correct: "Lara Croft"
     },
     {
         question: "¿A que se le considera 'lag' en un video juego?",
@@ -187,7 +187,7 @@ export const questionGeek = [
         b: "Bajadas abruptas de FPS",
         c: "Baja carga gráfica de un video juego",
         d: "Caerse del servidor",
-        corrrect: "Conexión mala/inestable de internet"
+        correct: "Conexión mala/inestable de internet"
     },
     {
         question: "Es Levi-O-sa, no ...",
@@ -195,7 +195,7 @@ export const questionGeek = [
         b: "Levi-O-sa",
         c: "Levi-o-SA",
         d: "LEVI-o-SA",
-        corrrect: "Levi-o-SA"
+        correct: "Levi-o-SA"
     },
     {
         question: "Cuando se desentierra, ¿qué hará una mandrágora?",
@@ -203,6 +203,6 @@ export const questionGeek = [
         b: "Eructo",
         c: "Reir",
         d: "Gritar",
-        corrrect: "Gritar"
+        correct: "Gritar"
     }
 ]

@@ -25,7 +25,7 @@ export default class Home extends Component {
                     }
                     </p>
                     <Image src="https://www.pngkit.com/png/full/192-1923288_octocat-github-logo-transparent-octdrey-catburn.png" rounded width="250px" style={{ textAlign: "center" }} />
-                    <Link to="/question" className="nav-link">Comienza el formulario aquí</Link>
+                    <Link to="/geek" className="nav-link">Comienza el formulario Geek aquí</Link>
                 </ContainerStyle>
             </DivForm>
         )
